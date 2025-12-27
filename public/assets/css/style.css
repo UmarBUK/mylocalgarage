@@ -1,0 +1,86 @@
+/* ---------- Base Layout ---------- */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+/* ---------- Typography & Base ---------- */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ---------- Header & Navigation ---------- */
+
+.site-header {
+    background: #1f2933;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+    background: #e5e7eb;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* ---------- Alerts ---------- */
+
+.alert.success {
+    background: #e6f4ea;
+    border: 1px solid #2e7d32;
+    color: #2e7d32;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
