@@ -1,7 +1,12 @@
 # OS / Editor
 .DS_Store
 .vscode/
+.idea/
 *.swp
+
+# Dependencies
+/vendor/
+node_modules/
 
 # Environment / secrets
 .env
