@@ -17,3 +17,5 @@ vendor/
 
 # Logs
 *.log
+/storage/
+/storage/*
