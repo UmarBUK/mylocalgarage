@@ -1,8 +1,7 @@
 <?php
-// Environment flag
-// Possible values: 'local', 'production'
-DB_HOST=localhost
-DB_NAME=mylocalgarage
-DB_USER=your_user_here
-DB_PASS=your_password_here
+define('APP_ENV', 'local');
 
+define('DB_HOST', '127.0.0.1');
+define('DB_NAME', 'mylocalgarage');
+define('DB_USER', 'real_user');
+define('DB_PASS', 'real_password');

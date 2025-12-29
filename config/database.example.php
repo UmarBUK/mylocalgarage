@@ -1,14 +1,12 @@
 <?php
-
-$host = '127.0.0.1';
-$db   = 'mylocalgarage';
-$user = 'DB_USERNAME';
-$pass = 'DB_PASSWORD';
+// Requires config/env.php (not committed)
+// Expected constants:
+// DB_HOST, DB_NAME, DB_USER, DB_PASS
 
 $pdo = new PDO(
-    "mysql:host=$host;dbname=$db;charset=utf8mb4",
-    $user,
-    $pass,
+    'mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8mb4',
+    DB_USER,
+    DB_PASS,
     [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
